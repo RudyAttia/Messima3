@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: rgb(43, 43, 43);
+    overflow: hidden;
+}
+header{
+    height: 54px;
+    padding: 6px 0 0 60px;
+    
+}
+header h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 350;
+}
+section{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    border: 1px gray solid;
+}
+#divcustomers{
+    width: 350px;
+    height: 100%;
+    border-right: 1px gray solid;
+}
+#searchcustomers{
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+#inputsearchcust{
+    padding-left: 15px;
+    font-size: 16px;
+    width: 100%;
+    height: 26px;
+}
+#customers{
+    overflow: auto;
+    padding: 3px;
+}
+.compname{
+    padding: 3px 6px;
+    cursor: pointer;
+}
+.compname:hover{
+    background-color: lightgray;
+}
+#choicedetails{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px gray solid;
+    background-color: rgb(231, 231, 231);
+    height: 25px;
+}
+#choicedetails div{
+    width: 150px;
+    height: 25px;
+    border-right: 1px gray solid;
+    border-bottom: 1px gray solid;
+    text-align: center;
+    cursor: pointer;
+}
+#namecust{
+    margin: 0 0 0 100px;
+}
+
+#detcustdet{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+td{
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+th{
+    padding: 4px 8px;
+    white-space: nowrap; 
+}
+.thcd{
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+#tablecd{
+    width: 60%;
+}
+#intop{
+    height: 70%;
+    overflow: auto;
+}
+#inbottom{
+    height: 30%;
+}
+#odtitle{
+    background-color: rgb(230, 230, 230);
+    height: 25px;
+    border-top: 2px gray solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#orddetails{
+    overflow: auto;
+}
+.oddt{
+    cursor: pointer;
+}
+.oddt:hover{
+    background-color: rgb(191, 205, 224);
+}
